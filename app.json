@@ -33,7 +33,7 @@
         },
         "SESSION_NAME": {
             "description": "Your Session Name",
-            "value": "TELLYBOTS"
+            "value": "JDSUBMUX"
         },
         "UPDATES_CHANNEL": {
             "description": "Get it From IDFinderRobot By Forwarding Msg From Channel to get id",
@@ -44,11 +44,6 @@
             "required": "False"
         }
     },
-    "buildpacks": [{
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        }, {
-            "url": "heroku/python"
-        }
-    ],
-	"stack": "container"
+    "buildpacks": [],
+    "stack": "container"
 }
