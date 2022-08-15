@@ -1,49 +1,21 @@
 {
-    "name": "Video-subtitle-merger",
-    "logo": "https://telegra.ph//file/d862f12b9c2ec6bc3cbaf.jpg",
-    "description": "Telegram bot to mux subtitles with the video",
-    "keywords": [
-        "telegram-bot",
-        "subtitles",
-        "muxing"
-    ],
-    "repository": "https://github.com/flmorse/Subtitle-Muxer-Bot-TEST",
-    "website": "https://t.me/naysabots",
-    "success_url": "https://t.me/naysabots",
-    "env": {
-        "BOT_TOKEN": {
-            "description": "Create It New Bot From Bot Father and Paste a token here",
-            "required": "True"
-        },
-        "API_HASH": {
-            "description": "Get it from my telegram.org",
-            "required": "True"
-        },
-        "APP_ID": {
-            "description": "Get it from my telegram.org",
-            "required": "True"
-        },
-        "OWNER_ID": {
-            "description": "Get It From IDFinderRobot by Pressing id command",
-            "required": "True"
-        },
-        "DATABASE_URL": {
-            "description": "Your MongoDB URI",
-            "value": ""
-        },
-        "SESSION_NAME": {
-            "description": "Your Session Name",
-            "value": "JDSUBMUX"
-        },
-        "UPDATES_CHANNEL": {
-            "description": "Get it From IDFinderRobot By Forwarding Msg From Channel to get id",
-            "required": "True"
-        },
-        "LOG_CHANNEL": {
-            "description": "Get it From IDFinderRobot By Forwarding Msg From Channel to get id",
-            "required": "False"
-        }
-    },
-    "buildpacks": [],
-    "stack": "container"
+  "scripts": {},
+  "env": {
+    "API_HASH": "b1fc05cb6e99b67c6fca96538c6d7e7e",
+    "APP_ID": "1957706",
+    "BOT_TOKEN": "5531253039:AAHN8DrtTOn3NJ5CAERTKM1d8PyB9lL-ecM",
+    "DATABASE_URL": "mongodb+srv://flmorse:flmorse@cluster0.fjq55fj.mongodb.net/?retryWrites=true&w=majority",
+    "LOG_CHANNEL": "-1001545909956",
+    "OWNER_ID": "831054990",
+    "SESSION_NAME": "JDSUBMUX",
+    "UPDATES_CHANNEL": "-1001545909956"
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [],
+  "stack": "container"
 }
