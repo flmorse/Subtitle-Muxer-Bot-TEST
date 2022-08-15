@@ -1,5 +1,7 @@
 FROM amd64/python:3
 
+CMD ["bash"] 
+
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
