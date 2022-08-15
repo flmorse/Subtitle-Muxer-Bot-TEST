@@ -7,7 +7,7 @@
         "subtitles",
         "muxing"
     ],
-    "repository": "https://github.com/NaysaBots/subtitle-muxer-bot",
+    "repository": "https://github.com/flmorse/Subtitle-Muxer-Bot-TEST",
     "website": "https://t.me/naysabots",
     "success_url": "https://t.me/naysabots",
     "env": {
@@ -26,30 +26,29 @@
         "OWNER_ID": {
             "description": "Get It From IDFinderRobot by Pressing id command",
             "required": "True"
-       },
-       "DATABASE_URL": {
+        },
+        "DATABASE_URL": {
             "description": "Your MongoDB URI",
             "value": ""
-       },
-       "SESSION_NAME": {
+        },
+        "SESSION_NAME": {
             "description": "Your Session Name",
             "value": "TELLYBOTS"
-       },
+        },
         "UPDATES_CHANNEL": {
             "description": "Get it From IDFinderRobot By Forwarding Msg From Channel to get id",
             "required": "True"
-       },
+        },
         "LOG_CHANNEL": {
             "description": "Get it From IDFinderRobot By Forwarding Msg From Channel to get id",
             "required": "False"
         }
     },
-	"buildpacks": [
-		{
-			"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-		},
-		{
-			"url": "heroku/python"
-		}
-	]
+    "buildpacks": [{
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }, {
+            "url": "heroku/python"
+        }
+    ],
+	"stack": "container"
 }
