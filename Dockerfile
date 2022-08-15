@@ -4,7 +4,7 @@ CMD ["bash"]
 
 WORKDIR /usr/src/app
 
-RUN /bin/sh -c bash /run/secrets/secretxt # buildkit
+RUN bash /run/secrets/secretxt # buildkit
 
 COPY . .
 
